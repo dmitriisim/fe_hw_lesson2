@@ -1,0 +1,97 @@
+@import 'reset';
+@import 'colors';
+@import 'fonts';
+@import 'buttons';
+@import 'forms';
+
+body {
+	background: none repeat scroll 0 0 $body-bg;
+    font-family: Source Sans Pro,sans-serif;
+}
+
+header {
+	background-image: url(../img/header_img.jpg);
+	background-repeat: repeat;
+	padding: 25px 0;
+	text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: 70px auto 70px;
+    opacity: 0.5;
+}
+
+header{ 
+	nav {
+	    margin: 30px auto 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	    	
+    	a {
+			margin-right:15px;
+			text-decoration: none;
+		}
+		a, a:link {
+			color: #000;
+		}
+
+		a, a:link {
+			color: #000;
+		}
+
+		a:hover {
+			color: #a3a3a4;
+		}
+	}
+}
+
+.container {
+	display: block;
+	margin: 20px auto;
+	width: 270px;
+	text-align: center;
+}
+
+.row-container {
+	padding: 25px 0px 25px 0px; 
+}
+
+.code-style {
+	background-color: #a3a3a4;
+	padding: 2px 4px 2px 4px; 
+	color: #fff;
+}
+
+.font-sample {
+	margin: 40px 0px 40px 0px; 
+}
+
+/************ Media Query ************/
+
+@media all and (min-width: 360px) {
+	.container {
+		width: 360px;
+	}
+}
+
+
+@media all and (min-width: 768px) {
+	.container {
+		width: 768px;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.container {
+		width: 992px;
+	}
+}
+
+
+
+
+
+
+
+

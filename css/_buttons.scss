@@ -1,0 +1,96 @@
+@mixin border-radius($radius) {
+	border: 4px solid transparent;
+	color: $white;
+	cursor: pointer;
+	display: inline-block;
+    overflow: visible;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    text-transform: uppercase;
+    display: inline-block;
+	-webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+    margin-bottom: 5px;
+}
+
+.button-big {
+	@include border-radius(8px); 
+	padding: 10px 24px;
+	font-size: 13px;
+}
+
+.button-small {
+	@include border-radius(6px); 
+	padding: 8px 22px;
+	font-size: 12px;
+}
+
+.button-mini {
+	@include border-radius(4px); 
+	padding: 5px 15px;
+	font-size: 10px;
+}
+
+.button-wide {
+	@include border-radius(8px); 
+	font-size: 13px;
+	padding: 10px 0px 10px 0px; 
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.default {
+	background-color: $grey;
+}
+
+.default:hover {
+	background-color: $green;
+}
+
+.primary {
+	background-color: $fb-blue;
+}
+
+.primary:hover {
+	background-color: $dark-fb-blue;
+}
+
+.contact {
+	background-color: $white;
+	color: $fb-blue;
+}
+
+.contact:hover {
+	background-color: $light-blue;
+	color: $fb-blue;
+}
+
+.comment {
+	background-color: $grey;
+}
+
+.comment:hover {
+	background-color: $dark-purple;
+}
+
+.alert {
+	background-color: $olive-yellow;
+}
+
+.alert:hover {
+	background-color: $light-yellow;
+}
+
+.attention {
+	background-color: $dangerous-red;
+}
+
+.attention:hover {
+	background-color: $grey;
+}
+
+
+

@@ -1,0 +1,82 @@
+.form-field {
+	text-align: left;
+}
+
+.forms-container {
+  clear: both;
+  font-size: 1px;
+}
+  
+.form-label, .form-label-narrow {
+	  color: #2c2d31;
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin: 12px 0 -2px 9px;
+    width: 29%;
+}
+
+.form-label-narrow {
+    float: none;
+    text-align: left;
+    margin: 0px 0px 7px 0px;
+}
+
+.form-field-container, .form-field-container-narrow {
+    float: right;
+    margin: 0px 0 10px -8px;
+    position: relative;
+    width: 70%;
+}
+
+.form-field-container-narrow {
+    float: none;
+    width: 100%;
+}
+
+.error-label {
+  color: $dangerous-red;
+}
+
+.form-textfield {
+ 
+  border-radius: 3px;
+  border: none;
+  background: none repeat scroll 0 0 #fafaf9;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2) inset, 0 -1px 0 rgba(0,0,0,0.05) inset;
+  transition: all 0.2s linear;
+  font-size: 13px;
+  color: #222222;
+  position: relative;
+  height: 36px;
+  width: 100%;
+  padding-left: 10px;
+
+  &::-webkit-input-placeholder {
+    color: #999999;
+  }
+  
+  &:-moz-placeholder {
+    color: #999999;
+  }
+
+  &:focus {
+	box-shadow: 0 1px 0 #bcc0eb inset, 0 -1px 0 #bcc0eb inset, 1px 0 0 #bcc0eb inset, -1px 0 0 #bcc0eb inset, 0 0 4px rgba(188,192,235,0.5);
+    outline: none;
+	}
+}
+
+.error-field {
+  @extend .form-textfield;
+  background: none repeat scroll 0 0 #f26e6e;
+  &:focus {
+  box-shadow: 0 1px 0 #f14141 inset, 0 -1px 0 #f14141 inset, 1px 0 0 #f14141 inset, -1px 0 0 #bcc0eb inset, 0 0 4px rgba(241,65,65,0.5);
+    outline: none;
+  }
+}
+
+.form-textarea {
+    @extend .form-textfield;
+    height: 150px;
+    width: 100%;
+}

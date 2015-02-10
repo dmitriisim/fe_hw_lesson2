@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Style Guide</title>
+    <meta name="viewport" content="width=device-width, initialscale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<section>
+			<!-- Logo block & Navigation-->	
+			<img id="logo" src="img/logo.png">
+			<h1 class="headline-big">FE101-15 - Sim - Style Guide</h1>	
+			<nav>
+				<a href="#colors">Colors</a>
+				<a href="#typography">Typography</a>
+				<a href="#buttons">Buttons</a>
+				<a href="#forms">Forms</a>
+			</nav>	
+		</section>
+	</header>
+	<section>
+		<div class="container">
+			<!-- Colors -->	
+			<div class="row-container">
+				<h2 id="colors" class="headline-big"><a href="#colors"></a>Colors</h2>
+				<ul>
+					<li class="color-sample white"><span>$white</span><br /><br />#ffffff</li>
+					<li class="color-sample light-blue"><span>$light-blue</span><br /><br />#dfe7f2</li>
+					<li class="color-sample sky-blue"><span>$sky-blue</span><br /><br />#bcc0eb</li>
+					<li class="color-sample fb-blue"><span>$fb-blue</span><br /><br />#677ec5</li>
+					<li class="color-sample dark-fb-blue"><span>$dark-fb-blue</span><br /><br />#344ea3</li>
+					<li class="color-sample dark-purple"><span>$dark-purple</span><br /><br />#6c7691</li>
+					<li class="color-sample grey"><span>$grey</span><br /><br />#a5a6a5</li>
+					<li class="color-sample green"><span>$green</span><br /><br />#7dcda3</li>
+					<li class="color-sample olive-yellow"><span>$olive-yellow</span><br /><br />#dac71b</li>
+					<li class="color-sample light-yellow"><span>$light-yellow</span><br /><br />#fae958</li>
+					<li class="color-sample dangerous-red"><span>$dangerous-red</span><br /><br />#f26e6e</li>
+				</ul>
+			</div>
+			<!-- Typography -->
+			<div class="row-container">
+				<h2 id="typography" class="headline-big"><a href="#typography"></a>Typography</h2>	
+				<p class="hint-txt">All text is set in Source Sans Pro—either 
+				<code class="code-style">lighter</code>, 
+				<code class="code-style">normal</code>, or 
+				<code class="code-style">bold</code>, or 
+				<code class="code-style">italic</code> as style:</p>	
+				<div class="font-sample font-standard">
+					ABCDEFGHIJKLMNOPQRSTUVWXYZ
+					<br>
+					abcdefghijklmnopqrstuvwxyz
+					<br>
+					0123456789
+					<br>
+					!&/()$=@;:,	
+				</div>
+				<div class="font-sample font-lighter">
+					ABCDEFGHIJKLMNOPQRSTUVWXYZ
+					<br>
+					abcdefghijklmnopqrstuvwxyz
+					<br>
+					0123456789
+					<br>
+					!&/()$=@;:,	
+				</div>
+				<div class="font-sample font-normal">
+					ABCDEFGHIJKLMNOPQRSTUVWXYZ
+					<br>
+					abcdefghijklmnopqrstuvwxyz
+					<br>
+					0123456789
+					<br>
+					!&/()$=@;:,	
+				</div>
+				<div class="font-sample font-bold">
+					ABCDEFGHIJKLMNOPQRSTUVWXYZ
+					<br>
+					abcdefghijklmnopqrstuvwxyz
+					<br>
+					0123456789
+					<br>
+					!&/()$=@;:,	
+				</div>
+				<div class="font-sample font-italic">
+					ABCDEFGHIJKLMNOPQRSTUVWXYZ
+					<br>
+					abcdefghijklmnopqrstuvwxyz
+					<br>
+					0123456789
+					<br>
+					!&/()$=@;:,	
+				</div>	
+			</div>
+			<!-- Buttons -->
+			<div class="row-container">
+				<h2 id="buttons" class="headline-big"><a href="#buttons"></a>Buttons</h2>
+				<!-- Default Buttons -->
+				<h3 class="headline-medium">Default Buttons</h3>
+				<button class="button-big default" type="button">Button</button>
+				<a class="button-big default" href="">Button as link</a>
+				<!-- Primary Buttons -->
+				<h3 class="headline-medium">Primary Buttons</h3>
+				<button class="button-big primary" type="button">Button</button>
+				<a class="button-big primary" href="">Button as link</a>
+				<!-- Contact Buttons -->
+				<h3 class="headline-medium">Contact Buttons</h3>
+				<button class="button-big contact" type="button">Button</button>
+				<a class="button-big contact" href="">Button as link</a>
+				<!-- Small Buttons -->
+				<h3 class="headline-medium">Small Buttons</h3>
+				<button class="button-small comment" type="button">Button</button>
+				<a class="button-small comment" href="">Button as link</a>
+				<!-- Mini Buttons -->
+				<h3 class="headline-medium">Mini Buttons</h3>
+				<button class="button-mini alert" type="button">Button</button>
+				<a class="button-mini alert" href="">Button as link</a>
+				<button class="button-mini attention" type="button">Button</button>
+				<a class="button-mini attention" href="">Button as link</a>
+				<!-- Wide Buttons -->
+				<h3 class="headline-medium">Wide Buttons</h3>
+				<button class="button-wide default" type="button">Button</button>
+				<a class="button-wide primary" href="">Button as link</a>
+			</div>
+			<!-- Forms -->
+			<div class="row-container">
+				<h2 id="forms" class="headline-big"><a href="#forms"></a>Forms</h2>
+				<h3 class="headline-medium">Basic fields</h3>
+				<!-- Basic -->
+				<form>
+					<div class="form-field">
+						<label class="form-label">My field</label>
+						<div class="form-field-container">
+							<input class="form-textfield" type="text" value="Lorem ipsum">
+						</div>
+					</div>
+				</form>
+				<div class="clear-both"></div>
+				<!-- Narrow -->
+				<h3 class="headline-medium">Basic field in narrow forms</h3>
+				<form>
+					<div class="form-field">
+						<label class="form-label-narrow">My field</label>
+						<div class="form-field-container-narrow">
+							<input class="form-textfield" type="text" value="Lorem ipsum">
+						</div>
+					</div>
+				</form>
+				<div class="clear-both"></div>
+				<!-- Field with error -->
+				<h3 class="headline-medium">Fields with errors</h3>
+				<form>
+					<div class="form-field">
+						<label class="form-label error-label">My field</label>
+						<div class="form-field-container">
+							<input class="form-textfield error-field" type="text" value="Lorem ipsum">
+						</div>
+					</div>
+				</form>
+				<div class="clear-both"></div>
+				<!-- File upload -->
+				<h3 class="headline-medium">File upload</h3>
+				<form>
+					<div class="form-field">
+						<label class="form-label">My field</label>
+						<div class="form-field-container">
+							<input class="button-mini contact" type="file" data-caption="">
+						</div>
+					</div>
+				</form>
+				<div class="clear-both"></div>
+				<!-- Checkboxes -->
+				<h3 class="headline-medium">Checkboxes</h3>
+				<form>
+					<div class="form-field">
+						<label class="form-label">My field</label>	
+						<div class="form-field-container">
+							<input id="" class="" type="checkbox" name="" value="" checked>
+							<label class="" for="">Lorem ipsum</label>
+						</div>
+						<div class="form-field-container">
+							<input id="" class="" type="radio" name="" value="" checked>
+							<label class="" for="">Lorem ipsum</label>
+						</div>
+					</div>
+				</form>
+				<div class="clear-both"></div>
+				<!-- Textareas -->
+				<h3 class="headline-medium">Textareas</h3>
+				<form>
+					<div class="form-field">
+						<label class="form-label">My field</label>
+						<div class="form-field-container">
+							<textarea class="form-textarea" name=""cols="45" rows="8"></textarea>
+							<div class="clear-both" style="height: 10px;"></div>
+							<button class="button-big primary" type="button">Button</button>
+						</div>
+					</div>
+				</form>
+				<div class="clear-both"></div>
+			</div>
+		</div>
+	</section>
+	<header>
+		<section>
+			<!-- Logo block & Navigation-->	
+			<img id="" src="img/logo.png" width="55px;" height="68px;">
+			<p>invisibleninja</p>	
+		</section>
+	</header>	
+</body>
+</html>

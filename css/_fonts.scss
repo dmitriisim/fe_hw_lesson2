@@ -1,0 +1,59 @@
+$font-family: Source Sans Pro, sans-serif;
+
+.font-variations {
+	font-family: $font-family;
+	font-size: 29px;
+	line-height: 1.5;
+}
+
+.font-lighter {
+	@extend .font-variations;
+	font-weight: lighter; 
+}
+
+.font-normal {
+	@extend .font-variations;
+	font-weight: normal; 
+}
+
+.font-bold {
+	@extend .font-variations;
+	font-weight: 900; 
+}
+
+.font-italic {
+	@extend .font-variations;
+	font-style: italic; 
+}
+
+.font-standard {
+	@extend .font-variations;
+	font-size: 17px; 
+}
+
+/**************Headlines***************/
+
+.title-main-style {
+    font-weight: bold;
+    line-height: 1;
+    margin: 40px 0px 27px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.3;
+    line-height: 2.4;
+    color: $main-headline-color;
+}
+
+.headline-big {
+	@extend .title-main-style;
+    font-size: 40px;
+}
+
+.headline-medium {
+	@extend .title-main-style;
+    font-size: 25px;
+}
+
+.hint-txt {
+	color: $hint-txt-color;
+}

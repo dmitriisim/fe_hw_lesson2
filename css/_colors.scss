@@ -1,0 +1,81 @@
+$body-bg: #f9f9f8;
+$main-headline-color: #000;
+$hint-txt-color: #a3a3a4;
+
+/***site colors***/
+$white: #ffffff;
+$light-blue: #dfe7f2;
+$sky-blue: #bcc0eb;
+$dark-purple: #6c7691;
+$grey: #a5a6a5;
+$olive-yellow: #dac71b;
+$light-yellow: #fae958;
+$fb-blue: #677ec5;
+$dark-fb-blue: #344ea3;
+$dangerous-red: #f26e6e;
+$green: #7dcda3;
+
+
+.color-sample {
+	border: 4px solid rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    padding: 50px 0px 0px 0px;
+    display: inline-block;
+    margin: 0px 15px 15px 0px; 
+    color: #fff;
+    span {
+	    font-weight: bold;
+	    padding-bottom:4px;
+	}  
+}
+
+.white {
+	background-color: $white;
+	color: #ccc;
+}
+
+.light-blue {
+	background-color: $light-blue;
+}
+
+.sky-blue {
+	background-color: $sky-blue;
+}
+
+.dark-purple {
+	background-color: $dark-purple;
+}
+
+.grey {
+	background-color: $grey;
+}
+
+.olive-yellow {
+	background-color: $olive-yellow;
+}
+
+.light-yellow {
+	background-color: $light-yellow;
+}
+
+.fb-blue {
+	background-color: $fb-blue;
+}
+
+.dark-fb-blue {
+	background-color: $dark-fb-blue;
+}
+
+.dangerous-red {
+	background-color: $dangerous-red;
+}
+
+.green {
+	background-color: $green;
+}
+
+
+
